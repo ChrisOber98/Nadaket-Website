@@ -8,7 +8,6 @@ html, body {
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
-    font-family: Roboto, sans-serif;
 }
 
 .header {
@@ -31,7 +30,7 @@ html, body {
     font-size: 12px;
 }
 
-.card-1 {
+.hero {
     background-color: #1F2937;
     height: 100vh;
     display: flex;
@@ -39,12 +38,12 @@ html, body {
     align-items: center;
 }
 
-.card-1-content {
+.hero-content {
     color: white;
     margin-left: 100px;
 }
 
-.card-1 img {
+.hero img {
     margin-right: 100px;
 }
 
@@ -56,9 +55,35 @@ html, body {
     padding: 7px
 }
 
-.card-2 {
+.info {
     background-color: white;
     height: 100vh;
+}
+
+.info-title {
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.info-imgs{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.info-1, .info-2, .info-3, .info-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+}
+
+.info-1-img, .info-2-img, .info-3-img, .info-4-img {
+    border-radius: 10%;
+    border: 2px solid #3882f6;
 }
 
 .card-3 {
