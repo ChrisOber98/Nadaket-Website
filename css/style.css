@@ -8,6 +8,7 @@ html, body {
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
+    font-family: Roboto, sans-serif;
 }
 
 .header {
@@ -16,15 +17,9 @@ html, body {
     padding: 10px;
     background-color: #1F2937;
     color: white;
-}
-
-.header-logo {
-    margin-left: 100px;
-}
-
-.footer {
-    display: flex;
-    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 24px;
 }
 
 .header-links {
@@ -32,8 +27,53 @@ html, body {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    gap: 10px;
+    gap: 18px;
+    font-size: 12px;
+}
+
+.card-1 {
+    background-color: #1F2937;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-1-content {
+    color: white;
+    margin-left: 100px;
+}
+
+.card-1 img {
     margin-right: 100px;
+}
+
+.signup-button {
+    background-color: #3882f6;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    padding: 7px
+}
+
+.card-2 {
+    background-color: white;
+    height: 100vh;
+}
+
+.card-3 {
+    background-color: #E5E7EB;
+    height: 100vh;
+}
+
+.card-4 {
+    background-color: white;
+    height: 100vh;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
 }
 
 a {
