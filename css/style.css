@@ -36,15 +36,12 @@ html, body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .hero-content {
     color: white;
-    margin-left: 100px;
-}
-
-.hero img {
-    margin-right: 100px;
 }
 
 .signup-button {
@@ -58,6 +55,8 @@ html, body {
 .info {
     background-color: white;
     height: 100vh;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .info-title {
@@ -86,9 +85,29 @@ html, body {
     border: 2px solid #3882f6;
 }
 
-.card-3 {
+.quote {
     background-color: #E5E7EB;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: Roboto, sans-serif;
+}
+
+.quote-signature {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Roboto, sans-serif;
+    align-self: flex-end;
 }
 
 .card-4 {
