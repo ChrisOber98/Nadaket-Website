@@ -1,3 +1,8 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 .webpage {
     display: flex;
     flex-direction: column;
@@ -9,6 +14,12 @@
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    background-color: #1F2937;
+    color: white;
+}
+
+.header-logo {
+    margin-left: 100px;
 }
 
 .footer {
@@ -22,8 +33,10 @@
     margin: 0;
     padding: 0;
     gap: 10px;
+    margin-right: 100px;
 }
 
 a {
     text-decoration: none;
+    color: white
 }
